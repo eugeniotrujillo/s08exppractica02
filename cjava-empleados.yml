@@ -1,0 +1,5 @@
+server:
+  port: 8086
+
+configuracion:
+  texto: Configuracion de entorno por defecto

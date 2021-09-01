@@ -1,0 +1,9 @@
+configuracion:
+  texto: Configuracion de entorno por defecto
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:s08_exp_practica02_emp
+    username: cjava
+    password: cjavaeugenio2021
+    driver-class-name: org.h2.Driver  

@@ -1,0 +1,17 @@
+configuracion:
+  texto: Configuracion de entorno de desarrollo
+  autor:
+    nombre: Eugenio Trujillo Avendaño
+    email: eugeniotrujillo@gmail.com
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug 

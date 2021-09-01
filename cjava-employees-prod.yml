@@ -1,0 +1,11 @@
+configuracion:
+  texto: Configuracion de entorno de produccion
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cjava_employees?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: cjava
+    password: cjavaeugenio2021
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
